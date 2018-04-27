@@ -1,0 +1,15 @@
+D:\visual studio local\GmsIniTools\GmsIniTools\bin\Debug\GmsIniTools.exe.config
+D:\visual studio local\GmsIniTools\GmsIniTools\bin\Debug\GmsIniTools.exe
+D:\visual studio local\GmsIniTools\GmsIniTools\bin\Debug\GmsIniTools.pdb
+D:\visual studio local\GmsIniTools\GmsIniTools\obj\Debug\GmsIniTools.csprojResolveAssemblyReference.cache
+D:\visual studio local\GmsIniTools\GmsIniTools\obj\Debug\MainWindow.g.cs
+D:\visual studio local\GmsIniTools\GmsIniTools\obj\Debug\App.g.cs
+D:\visual studio local\GmsIniTools\GmsIniTools\obj\Debug\GmsIniTools_MarkupCompile.cache
+D:\visual studio local\GmsIniTools\GmsIniTools\obj\Debug\GmsIniTools_MarkupCompile.lref
+D:\visual studio local\GmsIniTools\GmsIniTools\obj\Debug\MainWindow.baml
+D:\visual studio local\GmsIniTools\GmsIniTools\obj\Debug\GmsIniTools.g.resources
+D:\visual studio local\GmsIniTools\GmsIniTools\obj\Debug\GmsIniTools.Properties.Resources.resources
+D:\visual studio local\GmsIniTools\GmsIniTools\obj\Debug\GmsIniTools.csproj.GenerateResource.cache
+D:\visual studio local\GmsIniTools\GmsIniTools\obj\Debug\GmsIniTools.csproj.CoreCompileInputs.cache
+D:\visual studio local\GmsIniTools\GmsIniTools\obj\Debug\GmsIniTools.exe
+D:\visual studio local\GmsIniTools\GmsIniTools\obj\Debug\GmsIniTools.pdb

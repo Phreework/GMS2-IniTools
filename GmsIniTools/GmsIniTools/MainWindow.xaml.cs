@@ -19,29 +19,50 @@ namespace GmsIniTools {
     /// MainWindow.xaml 的交互逻辑
     /// </summary>
     public partial class MainWindow : Window {
-        
+
         public MainWindow() {
             InitializeComponent();
         }
 
-        private void TextBox_TextChanged(object sender, TextChangedEventArgs e) {
-            
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e) {
-
+        private static void OpenIniFile() {
             Microsoft.Win32.OpenFileDialog dialog = new Microsoft.Win32.OpenFileDialog();
             dialog.Filter = "文本文件|*.ini";
+            string filePath = dialog.FileName;
             if (dialog.ShowDialog() == true) {
-                OperIni.DeleteSection("1", dialog.FileName);
-                TextBox1.Text = OperIni.ReadIni("1", "peo_id", "wrong", dialog.FileName);
+                //dosomething
             }
-
-
-            //OperIni.ReadIni("1", "peo_id", "wrong", dialog.FileName);
-            //OperIni.WriteIni("1", "peo_id", "ljhaha", dialog.FileName);
-            //OperIni.DeleteKey("section", "key1", strFilePath);
-            //OperIni.DeleteSection("section", strFilePath);
         }
+
+        private void ManagerButton_Click(object sender, RoutedEventArgs e) {
+
+        }
+
+        private void CreateButton_Click(object sender, RoutedEventArgs e) {
+
+        }
+
+
+        private void WriterButton_Click(object sender, RoutedEventArgs e) {
+
+        }
+
+        private void HelpButton_Click(object sender, RoutedEventArgs e) {
+
+        }
+
+        private void OpenGitHubButton_click(object sender, RoutedEventArgs e) {
+            string myGitHubUrl = "www.baidu.com";
+            System.Diagnostics.Process.Start(myGitHubUrl);
+        }
+
+        private void OpenExample_click(object sender, RoutedEventArgs e) {
+
+        }
+
+
+        //OperIni.ReadIni("1", "peo_id", "wrong", dialog.FileName);
+        //OperIni.WriteIni("1", "peo_id", "ljhaha", dialog.FileName);
+        //OperIni.DeleteKey("section", "key1", strFilePath);
+        //OperIni.DeleteSection("section", strFilePath);
     }
 }

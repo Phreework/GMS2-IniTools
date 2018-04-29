@@ -5,21 +5,97 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GmsIniTools"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="GMS2 ini工具 by Phree" Height="450" Width="800">
     <Grid Background="#CC62D1A7">
         <Label Content="GMS2 ini文件生成工具" HorizontalAlignment="Left" Margin="265,37,0,0" VerticalAlignment="Top" Width="291" FontSize="24" Height="56"/>
         <Button Content="创建" FontSize="35" HorizontalAlignment="Left" Margin="47,127,0,0" VerticalAlignment="Top" Width="294" Click="CreateButton_Click" Height="114" Background="#E5F4BEBE" FontFamily="Arial" BorderThickness="0"/>
         <Button Content="管理" FontSize="35" HorizontalAlignment="Left" Margin="171,246,0,0" VerticalAlignment="Top" Width="294" Click="ManagerButton_Click" Height="114" Background="#E5CFC5E8" FontFamily="Arial" BorderThickness="0"/>
         <Button Content="使用帮助" FontSize="20" HorizontalAlignment="Left" Margin="346,127,0,0" VerticalAlignment="Top" Width="119" Click="HelpButton_Click" Height="114" BorderThickness="0"/>
         <Button Content="作者的闲谈" FontSize="15" HorizontalAlignment="Left" Margin="47,246,0,0" VerticalAlignment="Top" Width="119" Click="WriterButton_Click" Height="114" BorderThickness="0"/>
-        <StackPanel Background="#FF9DCEF9" HorizontalAlignment="Left" Height="233" Margin="503,127,0,0" VerticalAlignment="Top" Width="264">
-            <Frame Content="Frame" Height="31"/>
-            <Button Content="点击查看我的GitHub" Height="41" Click="OpenGitHubButton_click"/>
-            <Button Content="点击查看我的BiliBili" Height="41" Click="OpenMybili_click"/>
-            <Button Content="qq号781772991  欢迎骚扰" Height="30" />
-            <Button Content="推荐qq群：102797189（GMS2菜鸟群）" Height="30" />
-            <Button Content="推荐qq群：486694452（红激群）" Height="30"/>
-            <Frame Content="Frame" Height="35"/>
+        <StackPanel Background="#FFF7D97C" HorizontalAlignment="Left" Height="233" Margin="503,127,0,0" VerticalAlignment="Top" Width="264">
+            <Frame Content="                                 GMS2" Height="31"/>
+            <Button Content="点击进入我的GitHub" Height="41" Click="OpenGitHubButton_click" BorderThickness="0">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <LinearGradientBrush.RelativeTransform>
+                            <TransformGroup>
+                                <ScaleTransform CenterY="0.5" CenterX="0.5"/>
+                                <SkewTransform CenterY="0.5" CenterX="0.5"/>
+                                <RotateTransform Angle="-92.291" CenterY="0.5" CenterX="0.5"/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </LinearGradientBrush.RelativeTransform>
+                        <GradientStop Color="#FFB8C384" Offset="0"/>
+                        <GradientStop Color="#FFF09CA8" Offset="1"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            <Button Content="点击查看我的BiliBili" Height="41" Click="OpenMybili_click" BorderThickness="0">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <LinearGradientBrush.RelativeTransform>
+                            <TransformGroup>
+                                <ScaleTransform CenterY="0.5" CenterX="0.5"/>
+                                <SkewTransform CenterY="0.5" CenterX="0.5"/>
+                                <RotateTransform Angle="-92.291" CenterY="0.5" CenterX="0.5"/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </LinearGradientBrush.RelativeTransform>
+                        <GradientStop Color="#FF488D94" Offset="0"/>
+                        <GradientStop Color="#FF85EDA8" Offset="1"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            <Button Content="qq号：781772991  欢迎骚扰~" Height="30" BorderThickness="0">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <LinearGradientBrush.RelativeTransform>
+                            <TransformGroup>
+                                <ScaleTransform CenterY="0.5" CenterX="0.5"/>
+                                <SkewTransform CenterY="0.5" CenterX="0.5"/>
+                                <RotateTransform Angle="-92.291" CenterY="0.5" CenterX="0.5"/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </LinearGradientBrush.RelativeTransform>
+                        <GradientStop Color="#FF6D7EC5" Offset="0"/>
+                        <GradientStop Color="#FF85E7ED" Offset="1"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            <Button Content="推荐qq群：102797189（GMS2菜鸟群）" Height="30" BorderThickness="0">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <LinearGradientBrush.RelativeTransform>
+                            <TransformGroup>
+                                <ScaleTransform CenterY="0.5" CenterX="0.5"/>
+                                <SkewTransform CenterY="0.5" CenterX="0.5"/>
+                                <RotateTransform Angle="-92.291" CenterY="0.5" CenterX="0.5"/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </LinearGradientBrush.RelativeTransform>
+                        <GradientStop Color="#FFDC9FFF" Offset="0.007"/>
+                        <GradientStop Color="#FFB885ED" Offset="1"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            <Button Content="推荐qq群：486694452（红激群）" Height="30" BorderThickness="0">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <LinearGradientBrush.RelativeTransform>
+                            <TransformGroup>
+                                <ScaleTransform CenterY="0.5" CenterX="0.5"/>
+                                <SkewTransform CenterY="0.5" CenterX="0.5"/>
+                                <RotateTransform Angle="-92.291" CenterY="0.5" CenterX="0.5"/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </LinearGradientBrush.RelativeTransform>
+                        <GradientStop Color="#FF944848" Offset="0"/>
+                        <GradientStop Color="#FFED8585" Offset="1"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            
+            <Frame Content="                                 GMS2" Height="35"/>
         </StackPanel>
         <Button Content="点击获取一个配合&#x0a;GMS2使用的范例" HorizontalAlignment="Left" Margin="631,24,0,0" VerticalAlignment="Top" Width="136" Height="75" Click="OpenExample_click"/>
 

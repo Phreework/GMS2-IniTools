@@ -14,7 +14,6 @@ D:\visual studio local\GmsIniTools\GmsIniTools\obj\Debug\GmsIniTools.csproj.Core
 D:\visual studio local\GmsIniTools\GmsIniTools\obj\Debug\GmsIniTools.exe
 D:\visual studio local\GmsIniTools\GmsIniTools\obj\Debug\GmsIniTools.pdb
 E:\Github repository\GMS2-IniTools\GmsIniTools\GmsIniTools\obj\Debug\GmsIniTools.csprojResolveAssemblyReference.cache
-E:\Github repository\GMS2-IniTools\GmsIniTools\GmsIniTools\obj\Debug\MainWindow.g.cs
 E:\Github repository\GMS2-IniTools\GmsIniTools\GmsIniTools\obj\Debug\App.g.cs
 E:\Github repository\GMS2-IniTools\GmsIniTools\GmsIniTools\obj\Debug\GmsIniTools_MarkupCompile.cache
 E:\Github repository\GMS2-IniTools\GmsIniTools\GmsIniTools\obj\Debug\GmsIniTools_MarkupCompile.lref
@@ -23,8 +22,15 @@ E:\Github repository\GMS2-IniTools\GmsIniTools\GmsIniTools\obj\Debug\GmsIniTools
 E:\Github repository\GMS2-IniTools\GmsIniTools\GmsIniTools\bin\Debug\GmsIniTools.exe.config
 E:\Github repository\GMS2-IniTools\GmsIniTools\GmsIniTools\bin\Debug\GmsIniTools.exe
 E:\Github repository\GMS2-IniTools\GmsIniTools\GmsIniTools\bin\Debug\GmsIniTools.pdb
-E:\Github repository\GMS2-IniTools\GmsIniTools\GmsIniTools\obj\Debug\MainWindow.baml
 E:\Github repository\GMS2-IniTools\GmsIniTools\GmsIniTools\obj\Debug\GmsIniTools.g.resources
 E:\Github repository\GMS2-IniTools\GmsIniTools\GmsIniTools\obj\Debug\GmsIniTools.Properties.Resources.resources
 E:\Github repository\GMS2-IniTools\GmsIniTools\GmsIniTools\obj\Debug\GmsIniTools.csproj.GenerateResource.cache
 E:\Github repository\GMS2-IniTools\GmsIniTools\GmsIniTools\obj\Debug\GmsIniTools.csproj.CoreCompileInputs.cache
+E:\Github repository\GMS2-IniTools\GmsIniTools\GmsIniTools\obj\Debug\MainWindow.g.cs
+E:\Github repository\GMS2-IniTools\GmsIniTools\GmsIniTools\obj\Debug\MainWindow.baml
+E:\Github repository\GMS2-IniTools\GmsIniTools\GmsIniTools\obj\Debug\CreatePage.g.cs
+E:\Github repository\GMS2-IniTools\GmsIniTools\GmsIniTools\obj\Debug\CreatePage.baml
+E:\Github repository\GMS2-IniTools\GmsIniTools\GmsIniTools\bin\Debug\GmsIniTools.exe.manifest
+E:\Github repository\GMS2-IniTools\GmsIniTools\GmsIniTools\bin\Debug\GmsIniTools.application
+E:\Github repository\GMS2-IniTools\GmsIniTools\GmsIniTools\obj\Debug\GmsIniTools.exe.manifest
+E:\Github repository\GMS2-IniTools\GmsIniTools\GmsIniTools\obj\Debug\GmsIniTools.application

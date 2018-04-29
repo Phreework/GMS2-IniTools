@@ -38,7 +38,7 @@ namespace GmsIniTools {
         }
 
         private void CreateButton_Click(object sender, RoutedEventArgs e) {
-
+            this.Content = new CreatePage();
         }
 
 
@@ -51,14 +51,19 @@ namespace GmsIniTools {
         }
 
         private void OpenGitHubButton_click(object sender, RoutedEventArgs e) {
-            string myGitHubUrl = "www.baidu.com";
+            string myGitHubUrl = "https://www.github.com/Phreework";
+            System.Diagnostics.Process.Start(myGitHubUrl);
+        }
+
+        private void OpenMybili_click(object sender, RoutedEventArgs e) {
+            string myGitHubUrl = "https://www.bilibili.com/";
             System.Diagnostics.Process.Start(myGitHubUrl);
         }
 
         private void OpenExample_click(object sender, RoutedEventArgs e) {
-
+            string myGitHubUrl = "https://www.github.com/Phreework";
+            System.Diagnostics.Process.Start(myGitHubUrl);
         }
-
 
         //OperIni.ReadIni("1", "peo_id", "wrong", dialog.FileName);
         //OperIni.WriteIni("1", "peo_id", "ljhaha", dialog.FileName);

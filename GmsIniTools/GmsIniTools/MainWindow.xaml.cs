@@ -22,52 +22,8 @@ namespace GmsIniTools {
 
         public MainWindow() {
             InitializeComponent();
+            this.Content = new IndexPage();
         }
-
-        private static void OpenIniFile() {
-            Microsoft.Win32.OpenFileDialog dialog = new Microsoft.Win32.OpenFileDialog();
-            dialog.Filter = "文本文件|*.ini";
-            string filePath = dialog.FileName;
-            if (dialog.ShowDialog() == true) {
-                //dosomething
-            }
-        }
-
-        private void ManagerButton_Click(object sender, RoutedEventArgs e) {
-
-        }
-
-        private void CreateButton_Click(object sender, RoutedEventArgs e) {
-            this.Content = new CreatePage();
-        }
-
-
-        private void WriterButton_Click(object sender, RoutedEventArgs e) {
-
-        }
-
-        private void HelpButton_Click(object sender, RoutedEventArgs e) {
-
-        }
-
-        private void OpenGitHubButton_click(object sender, RoutedEventArgs e) {
-            string myGitHubUrl = "https://www.github.com/Phreework";
-            System.Diagnostics.Process.Start(myGitHubUrl);
-        }
-
-        private void OpenMybili_click(object sender, RoutedEventArgs e) {
-            string myGitHubUrl = "https://www.bilibili.com/";
-            System.Diagnostics.Process.Start(myGitHubUrl);
-        }
-
-        private void OpenExample_click(object sender, RoutedEventArgs e) {
-            string myGitHubUrl = "https://www.github.com/Phreework";
-            System.Diagnostics.Process.Start(myGitHubUrl);
-        }
-
-        //OperIni.ReadIni("1", "peo_id", "wrong", dialog.FileName);
-        //OperIni.WriteIni("1", "peo_id", "ljhaha", dialog.FileName);
-        //OperIni.DeleteKey("section", "key1", strFilePath);
-        //OperIni.DeleteSection("section", strFilePath);
+             
     }
 }

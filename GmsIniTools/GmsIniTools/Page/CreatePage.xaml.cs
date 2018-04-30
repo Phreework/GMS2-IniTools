@@ -24,5 +24,18 @@ namespace GmsIniTools
         {
             InitializeComponent();
         }
+
+        private void BackButton_Click(object sender, RoutedEventArgs e) {
+            ChangePage(new IndexPage());
+        }
+
+
+
+        #region tools Method
+        private void ChangePage(Page page) {
+            Window mainwin = Application.Current.MainWindow;
+            mainwin.Content = page;
+        }
+        #endregion
     }
 }

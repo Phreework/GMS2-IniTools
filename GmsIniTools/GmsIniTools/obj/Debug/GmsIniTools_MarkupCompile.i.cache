@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 E:\Github repository\GMS2-IniTools\GmsIniTools\GmsIniTools\App.xaml
-2-2050026382
+4-2099227261
 
-17-2097518748
+19444287900
 14-1175798665
-CreatePage.xaml;MainWindow.xaml;
+Page\ManagePage.xaml;Page\CreatePage.xaml;Page\IndexPage.xaml;MainWindow.xaml;
 
 True
 

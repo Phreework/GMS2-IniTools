@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace GmsIniTools.Class.Manager {
-    class IniManagerNormal {
+    class IniManagerNormal :IniManager{
+
     }
 }

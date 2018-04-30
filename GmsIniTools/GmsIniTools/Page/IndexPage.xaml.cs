@@ -22,14 +22,7 @@ namespace GmsIniTools {
             InitializeComponent();
         }
 
-        private static void OpenIniFile() {
-            Microsoft.Win32.OpenFileDialog dialog = new Microsoft.Win32.OpenFileDialog();
-            dialog.Filter = "文本文件|*.ini";
-            string filePath = dialog.FileName;
-            if (dialog.ShowDialog() == true) {
-                //dosomething
-            }
-        }
+
 
         private void ManagerButton_Click(object sender, RoutedEventArgs e) {
             ChangePage(new ManagePage());
@@ -63,10 +56,7 @@ namespace GmsIniTools {
             System.Diagnostics.Process.Start(myGitHubUrl);
         }
 
-        //OperIni.ReadIni("1", "peo_id", "wrong", dialog.FileName);
-        //OperIni.WriteIni("1", "peo_id", "ljhaha", dialog.FileName);
-        //OperIni.DeleteKey("section", "key1", strFilePath);
-        //OperIni.DeleteSection("section", strFilePath);
+
 
         #region tools Method
         private void ChangePage(Page page) {

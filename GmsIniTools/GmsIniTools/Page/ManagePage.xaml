@@ -11,6 +11,8 @@
     <Grid Background="#CC62D1A7">
         <Button Content="返回上一级" HorizontalAlignment="Left" Margin="648,368,0,0" VerticalAlignment="Top" Width="129" Click=" BackButton_Click" Height="34" Background="Azure"/>
         <Label Content="作者：Phree     QQ：781772991" HorizontalAlignment="Left" Margin="312,376,0,0" VerticalAlignment="Top"/>
+        <Button Content="选择文件" HorizontalAlignment="Left" Margin="80,40,0,0" VerticalAlignment="Top" Width="75" Click="ChooseButton_Click"/>
+        <Label Name="srcLabel" Content="文件地址：" HorizontalAlignment="Left" Margin="184,37,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Page>

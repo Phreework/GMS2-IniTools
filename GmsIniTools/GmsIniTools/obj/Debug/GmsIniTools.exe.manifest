@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GmsIniTools.exe" size="20496">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GmsIniTools.exe" size="21520">
       <assemblyIdentity name="GmsIniTools" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>38eYsCBnrQKyrJoFIHCBcR0HFaWgNyj2DBU0K9Y3cxY=</dsig:DigestValue>
+        <dsig:DigestValue>Sn/ZpdkjENonEbYo+AU7HVB/Sro4iawyHw5nNpaPnZs=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

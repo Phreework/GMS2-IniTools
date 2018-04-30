@@ -106,6 +106,7 @@
     <Compile Include="Class\Create\IniCreate.cs" />
     <Compile Include="Class\Create\IniCreateModel.cs" />
     <Compile Include="Class\Create\IniCreateNormal.cs" />
+    <Compile Include="Class\IniType.cs" />
     <Compile Include="Class\Manager\IniManager.cs" />
     <Compile Include="Class\Manager\IniManagerModel.cs" />
     <Compile Include="Class\Manager\IniManagerNormal.cs" />
@@ -147,7 +148,6 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
-    <None Include="test.ini" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

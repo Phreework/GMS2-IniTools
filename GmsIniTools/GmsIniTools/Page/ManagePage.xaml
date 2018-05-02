@@ -13,6 +13,11 @@
         <Label Content="作者：Phree     QQ：781772991" HorizontalAlignment="Left" Margin="312,376,0,0" VerticalAlignment="Top"/>
         <Button Content="选择文件" HorizontalAlignment="Left" Margin="80,40,0,0" VerticalAlignment="Top" Width="75" Click="ChooseButton_Click"/>
         <Label Name="srcLabel" Content="文件地址：" HorizontalAlignment="Left" Margin="184,37,0,0" VerticalAlignment="Top"/>
+        <DataGrid AutoGenerateColumns="False"  Name="iniDataGrid" HorizontalAlignment="Left" Height="201" Margin="41,112,0,0" VerticalAlignment="Top" Width="312" SelectionChanged="DataGrid_SelectionChanged" MouseDoubleClick="GridDoubleClick">
+            <DataGrid.Columns>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Label Name="testLabel" Content="Label" HorizontalAlignment="Left" Margin="437,96,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Page>

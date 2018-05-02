@@ -14,8 +14,6 @@ namespace GmsIniTools.Class.Manager {
             if ((bool)dialog.ShowDialog()) {
                 filePath = dialog.FileName;
             }
-           
-
             return filePath;
         }
     }

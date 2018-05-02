@@ -11,5 +11,12 @@ namespace GmsIniTools.Class {
             NormalType
         }
         public IniFileType IniFile = IniFileType.NormalType;
+
+        public bool IsNormal() {
+            if (IniFile == IniFileType.NormalType)
+                return true;
+            else
+                return false;
+        }
     }
 }
